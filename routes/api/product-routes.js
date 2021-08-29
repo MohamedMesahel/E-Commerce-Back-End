@@ -22,7 +22,7 @@ router.get('/', (req, res) => {
     ],
   })
   .then((dbProductData) => {
-    res.json(dbCategoryData)
+    res.json(dbProductData)
   })
   .catch((err) => {
     console.log(err);
