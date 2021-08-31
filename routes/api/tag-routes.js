@@ -40,7 +40,7 @@ router.get('/:id', (req, res) => {
   })
   .then((dbTagData) => {
     if (!dbTagData){
-    res.status(404).json({ message: 'Product not found with this Tag name'});
+    res.status(404).json({ message: 'Product not found with this Tag ID'});
    return;
   }
     res.json(dbTagData);
