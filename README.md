@@ -30,6 +30,6 @@ SO THAT my company can compete with other e-commerce companies
 - After installation Exit the mysql terminal and from bash or zsh, type `npm start` in the command line to start running the app.
 
 ### Screen Shots
-![](assets/img/...png)
-![](assets/img/...png)
-![](assets/img/...png)
+![](assets/img/Categories.png)
+![](assets/img/Products.png)
+![](assets/img/Tags.png)
