@@ -1,8 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
+// Initialize ProductTag model (table) by extending off Sequelize's Model class
 
-class ProductTag extends Model {}
+class ProductTag extends Model { }
+// set up ProductTag and rules for Product model
 
 ProductTag.init(
   {
@@ -13,14 +15,14 @@ ProductTag.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    product_id: { 
+    product_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'product',
         key: 'id',
       },
     },
-    tag_id: { 
+    tag_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'tag',
