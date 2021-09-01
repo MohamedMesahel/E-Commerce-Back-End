@@ -23,7 +23,7 @@ SO THAT my company can compete with other e-commerce companies
 ```
 
 ## Link to Demo
-[E-Commerce-Backend]()
+[E-Commerce-Backend](https://drive.google.com/file/d/14VkoAjSs1qs_8mhaWnAIzUNo0RylE4M0/view)
 
 ## Usage 
 - Initiate the database with 'mysql -u root -p', then 'source db/schema.sql' to create the tables. 
