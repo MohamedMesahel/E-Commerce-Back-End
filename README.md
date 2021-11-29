@@ -8,7 +8,7 @@
 [![Website shields.io](https://badges.aleen42.com/src/npm.svg)](http://shields.io/)
 
 # E-Commerce-Back-End
-Back-end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+This app is the backend portion of an E-Commerce website. Express.js was used for the server and MySQL for the database along with Sequelize as the ORM to run SQL models and queries. The SQL database includes tables for products, categories, tags, and product tags. RESTful API routes are used to make requests and updates from the database which are joined through Sequelize queries.
 ## Table of Contents
 <!-- TABLE OF CONTENTS -->
 <details>
