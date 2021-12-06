@@ -38,7 +38,7 @@ This app is the backend portion of an E-Commerce website. Express.js was used fo
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img  src="./assets/img/Products.png" width="35%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img  src="./ssets/img/Categories.png" width="30%">
+  <img  src="./assets/img/Categories.png" width="30%">
 </p>
 
 Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
